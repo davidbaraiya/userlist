@@ -42,7 +42,6 @@ const Create = () => {
         toast.error("Phone number must be 10 digits long", tostSettings);
         return;
       }
-
       dispatch(
         createUser({
           id: smallId,
